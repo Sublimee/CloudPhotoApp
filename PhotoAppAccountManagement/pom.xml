@@ -8,11 +8,11 @@
         <version>2.1.8.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.cloud.photoapp.api.account</groupId>
-    <artifactId>photoappaccountmanagement</artifactId>
+    <groupId>com.cloud.photoapp.api.accounts</groupId>
+    <artifactId>PhotoAppApiAccounts</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>photoappaccountmanagement</name>
-    <description>Account Management microservice</description>
+    <name>PhotoAppAccountsManagement</name>
+    <description>Accounts Management microservice</description>
 
     <properties>
         <java.version>1.8</java.version>

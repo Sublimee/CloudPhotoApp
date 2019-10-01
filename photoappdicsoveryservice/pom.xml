@@ -8,10 +8,10 @@
         <version>2.2.0.M6</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.photoapp</groupId>
-    <artifactId>photoappdicsoveryservice</artifactId>
+    <groupId>com.cloud.photoapp.discovery</groupId>
+    <artifactId>PhotoAppDicsoveryService</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>Photo App Discovery Service</name>
+    <name>PhotoAppDiscoveryService</name>
     <description>Photo App Discovery Service</description>
 
     <properties>
