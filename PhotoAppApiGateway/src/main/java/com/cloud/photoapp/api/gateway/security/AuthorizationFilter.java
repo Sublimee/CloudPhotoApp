@@ -26,7 +26,7 @@ public class AuthorizationFilter extends BasicAuthenticationFilter {
     @Override
     protected void doFilterInternal(HttpServletRequest request, HttpServletResponse response, FilterChain chain) throws IOException, ServletException {
         String authorizationHeader = request.getHeader(environment.getProperty("authorization.token.header.name"));
-        if (authorizationHeader == null || !authorizationHeader.startsWith("")) {
+        if (authorizationHeader == null || !authorizationHeader.startsWith(environment.getProperty("authorization.token.header.prefix"))) {
             chain.doFilter(request, response);
             return;
         }
